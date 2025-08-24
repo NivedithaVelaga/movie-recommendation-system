@@ -10,8 +10,8 @@ library(reshape2)
 
 
 # Step 2 Loading the Data
-movie_data <- read.csv("C:\\Hitesh\\MovieRecommendationSystem_Project\\IMDB-Dataset\\movies.csv",stringsAsFactors=FALSE)
-rating_data <- read.csv("C:\\Hitesh\\MovieRecommendationSystem_Project\\IMDB-Dataset\\ratings.csv")
+movie_data <- read.csv("C:\\nived\\MovieRecommendationSystem_Project\\IMDB-Dataset\\movies.csv",stringsAsFactors=FALSE)
+rating_data <- read.csv("C:\\nived\\MovieRecommendationSystem_Project\\IMDB-Dataset\\ratings.csv")
 str(movie_data)
 summary(movie_data)
 head(movie_data)
